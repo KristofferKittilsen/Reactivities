@@ -7,11 +7,11 @@ import { v4 as uuid } from 'uuid'
 import * as yup from "yup"
 import { IActivity } from "../../models/activity"
 import { useStore } from "../../stores/store"
-import { categoryOptions } from "../form/categoryOptions"
-import MyDateInput from "../form/MyDateInput"
-import MySelectInput from "../form/MySelectInput"
-import MyTextArea from "../form/MyTextArea"
-import MyTextInput from "../form/MyTextInput"
+import { categoryOptions } from "./categoryOptions"
+import MyDateInput from "./MyDateInput"
+import MySelectInput from "./MySelectInput"
+import MyTextArea from "./MyTextArea"
+import MyTextInput from "./MyTextInput"
 import LoadingComponents from "../LoadingComponents"
 
 const ActivityForm = () => {
